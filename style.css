@@ -1,0 +1,283 @@
+/**Keseluruhan**/
+* {
+    padding: 0;
+    margin: 0;
+}
+/**Bagian Body**/
+body {
+    font-family: 'Bellota', sans-serif;
+    background: url(img/y-so-serious-white.png);
+}
+/**Bagian Kontainer**/
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 2.5px;
+    box-shadow: 0.5px 0.5px 7px 3px #FFB7C5;
+}
+/**Bagian Header**/
+.header {
+    overflow: hidden;
+    background: #FFB7C5;
+    padding: 10px;
+    height: 100px;
+}
+.header .headerleft {
+    width: 490px;
+    height: 70px;
+    float: left;
+    top: 0px;
+}
+.header .headerleft img {
+    width: 300px;
+    height: auto;
+}
+.header .headerright {
+    width: 490px;
+    height: 70px;
+    float: right;    
+}
+.header .headerright input {
+    font-family: inherit;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    float: right;
+    border-radius: 5px;
+}
+.header .headerright input:hover {
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
+}
+.header .headerbottom li {
+    list-style: none;
+}
+.header .headerbottom li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0px 15px;
+    line-height: 25px;
+    font-size: 15px;
+    font-variant: small-caps; /*buat bikin huruf jadi kapital*/    
+    float: right;
+}
+.header .headerbottom li a:hover {
+    border-bottom: 1px solid;
+    color: #ffffff;
+}
+/**Bagian Slideshow**/
+.slideshow
+{  
+    overflow: hidden;
+    padding: 10px;
+}
+.slideshow h3 {
+    padding-top: 30px;
+    font-style: inherit;
+    border-bottom: solid #000000;
+    font-family: 'Bellota', sans-serif;
+}
+/**Bagian Slideshow Atas**/
+.slideshowtop {
+    position: relative;
+}
+.slideshowtop h2 {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+}
+.slideshowtop p {
+    position: absolute;
+    top: 380px;
+    left: 10px;
+}
+.slideshowtop a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.slideshowtop a:hover {
+    color: #FFB7C5;
+}
+.slideshowtop img {
+    width: 800px;
+    padding-top: 10px;
+}
+/**Bagian Slideshow Bawah**/
+.slideshowbottom {
+    position: relative;
+}
+.slideshowbottom a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.slideshowbottom a:hover {
+    color: #FFB7C5;
+}
+.slideshowbottom .satu {
+    position: absolute;
+    top: 160px;
+    left: 0;
+}
+.slideshowbottom .dua {
+    position: absolute;
+    top: 160px;
+    left: 200px;    
+}
+.slideshowbottom .tiga {
+    position: absolute;
+    top: 160px;
+    left: 400px;
+}
+.slideshowbottom .empat {
+    position: absolute;
+    top: 160px;
+    left: 600px;    
+}
+.slideshowbottom .satu, .dua, .tiga, .empat {
+    width: 180px;
+    height: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.slideshowbottom img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+/**Bagian Favorit**/
+.favorit
+{  
+    overflow: hidden;
+    padding: 10px;
+}
+.favorit h3 {
+    padding-top: 30px;
+    font-style: inherit;
+    border-bottom: solid #000000;
+    font-family: 'Bellota', sans-serif;
+}
+.favoritleft {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+.favoritleft a {
+    text-decoration: none;
+    padding-top: 10px;
+    color:#000000;
+}
+.favoritleft a:hover {
+    color: #FFB7C5;
+}
+.favoritleft2 {
+    float: left;
+}
+.favoritleft2 img {
+    width: 140px;
+    height: 140px;
+}
+.favoritleftright1, .favoritleftright2, .favoritleftright3 {
+    width: 140px;
+    height: 143px;
+    float: right;
+}
+.favoritright {
+    width: 300px;
+    float: right;
+    padding: 10px;
+}
+.favoritright a {
+    text-decoration: none;
+    padding-top: 10px;
+    color:#000000;
+}
+.favoritright a:hover {
+    color: #FFB7C5;
+}
+.favoritrightleft {
+    float: left;
+}
+.favoritrightleft img {
+    width: 140px;
+    height: 140px;
+}
+.favoritright2, .favoritright3, .favoritright4 {
+    width: 140px;
+    height: 143px;
+    float: right;
+}
+/**Bagian Jelajah**/
+.jelajah
+{  
+    overflow: hidden;
+    padding: 10px;
+}
+.jelajah h3 {
+    padding-top: 30px;
+    font-style: inherit;
+    border-bottom: solid #000000;
+}
+.jelajah h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.jelajah li a {
+    text-decoration: none;
+    color: #000000;
+}
+.jelajah a:hover {
+    color: #FFB7C5;
+}
+.jelajahleft {
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+}
+.jelajahleft li {
+    list-style: none;
+    top: 50px;
+}
+.jelajahright {
+    padding: 10px;
+    width: 310px;
+    float: right;
+}
+.jelajahright li {
+    list-style: none;
+    top: 50px;
+}
+/**Bagian Footer**/
+.footer {
+    overflow: hidden;
+    background: #FFB7C5;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.footerleft {
+    padding: 5px;
+    width: 300px;
+    float: left;
+}
+.footerright {
+    padding: 5px;
+    width: 500px;
+    text-align: right;
+    float: right;
+}
+.footerleft img {
+    width: 30px;
+    height: 30px;
+    border-radius: 700px;
+}
+.footerright a {
+    text-decoration: none;
+    color: #000000;
+}
+.footerright a:hover {
+    color: #ffffff;
+}
